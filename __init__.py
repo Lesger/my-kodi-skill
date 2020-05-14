@@ -553,7 +553,7 @@ class KodiSkill(MycroftSkill):
         method = "Player.Stop"
         self.kodi_payload = {
             "jsonrpc": "2.0",
-            "method": method,
+            "method": "Player.Stop",
             "params": {
                 "playerid": 0
             },
