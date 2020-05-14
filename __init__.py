@@ -555,7 +555,7 @@ class KodiSkill(MycroftSkill):
             "jsonrpc": "2.0",
             "method": method,
             "params": {
-                "playerid": 1
+                "playerid": 0
             },
             "id": 1
         }
