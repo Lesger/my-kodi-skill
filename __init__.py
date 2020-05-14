@@ -74,7 +74,7 @@ class KodiSkill(MycroftSkill):
             require("StopKeyword").one_of("FilmKeyword", "KodiKeyword", "YoutubeKeyword").build()
         self.register_intent(stop_film_intent, self.handle_stop_film_intent)
 
-        # eg. stop the movie
+        # eg. stop the music
         stop_music_intent = IntentBuilder("StopMusicIntent"). \
             require("StopKeyword").one_of("MusicKeyword", "KodiKeyword", "YoutubeKeyword").build()
         self.register_intent(stop_music_intent, self.handle_stop_music_intent)
